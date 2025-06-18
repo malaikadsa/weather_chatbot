@@ -20,7 +20,6 @@ git clone https://github.com/malaikadsa/weather_chatbot.git
 cd weather_chatbot
 ```
 ### 2. Create and Activate a Virtual Environment
-It is recommended to use Python=3.10.
 ```bash
 python -m venv venv
 source venv/bin/activate        # On Unix/macOS
@@ -31,12 +30,17 @@ venv\Scripts\activate           # On Windows
 ```bash
 pip install -r requirements.txt
 ```
-### 4. Add API Key to .env
+### 4. Train the Model
+
+```bash
+python models/train_intent_model.py
+```
+### 5. Add API Key to .env
 Open the .env file and add your OpenWeatherMap API key. You can get your OpenWeatherMap key [here](https://home.openweathermap.org/api_keys). Finally, the file should look like this:
 ```bash
 OPENWEATHER_API_KEY=your_openweathermap_api_key
 ```
-### 5. Run the App
+### 6. Run the App
 To start the chatbot interface on your machine execute the following command:
 ```bash
 python run.py
