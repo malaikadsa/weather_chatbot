@@ -1,0 +1,91 @@
+/* Apply base font and center the chat container in the viewport */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main chat interface container */
+.chat-container {
+    background: white;
+    width: 400px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* Chat header styling */
+h1 {
+    margin: 0;
+    padding: 16px;
+    background: #3f51b5;
+    color: white;
+    text-align: center;
+}
+
+/* Scrollable area for chat messages */
+.chat-box {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+/* Styling for individual messages */
+.message {
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    clear: both;
+}
+
+/* Bot messages aligned left with gray background */
+.message.bot {
+    background: #e0e0e0;
+    float: left;
+}
+
+/* User messages aligned right with blue background */
+.message.you {
+    background: #cce5ff;
+    float: right;
+}
+
+/* Input section container */
+.input-area {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+/* Text input styling */
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Send button styling */
+#send-btn {
+    background: #3f51b5;
+    color: white;
+    border: none;
+    padding: 0 16px;
+    margin-left: 8px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Darker background on hover for visual feedback */
+#send-btn:hover {
+    background: #303f9f;
+}
