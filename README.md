@@ -13,6 +13,7 @@ A simple and interactive weather chatbot built with **Python**, **Flask** and th
 
 ## Installation
 
+Installation presumes an existing Python installation.
 ### 1. Clone the Repository
 
 ```bash
