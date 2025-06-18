@@ -48,3 +48,6 @@ This will initiate a local server at http://127.0.0.1:5000. To start chatting wi
 * [OpenWeatherMap API documentation](https://openweathermap.org/api)
 * [Flask documentation](https://flask.palletsprojects.com)
 * [Scikit-learn: Machine learning in Python](https://scikit-learn.org)
+* [CSS: Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [HTML: HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [JavaScript guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
