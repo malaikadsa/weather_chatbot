@@ -4,13 +4,6 @@
 
 A simple and interactive weather chatbot built with **Python**, **Flask** and the **OpenWeatherMap API**. Users can type weather related queries to get real-time weather information and forecasts for any city.
 
-## 📦 Features
-
-- 🌦️ Current weather conditions.
-- 🔍 Detailed information like humidity, wind, visibility, etc.
-- 📅 3-day forecast summaries.
-- 🌅 Sunrise and Sunset times.
-
 ## Installation
 
 Installation presumes an existing Python installation.
@@ -47,6 +40,22 @@ To start the chatbot interface on your machine execute the following command:
 python run.py
 ```
 This will initiate a local server at http://127.0.0.1:5000. To start chatting with the chatbot, simply open this URL in your browser.
+
+## Example
+
+Type in your weather related query and click on the arrow or press enter.
+You can ask things like:
+"What's the weather in Paris?"
+"Tell me the humidity in New York."
+"When is sunset in Mumbai?"
+"What’s the forecast for the next few days in Madrid?"
+"What's the wind speed in Chicago?"
+
+## 📦 Features
+
+- 🌦️ Current weather conditions like temperature, pressure, humidity, wind, visibility, cloudiness, rain, snow.
+- 📅 3-day forecast summaries.
+- 🌅 Sunrise and Sunset times.
 
 ## References
 * [Python](https://www.python.org)
