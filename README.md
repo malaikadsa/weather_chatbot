@@ -43,13 +43,13 @@ This will initiate a local server at http://127.0.0.1:5000. To start chatting wi
 
 ## Example
 
-Type in your weather related query and click on the arrow or press enter.
-You can ask things like:
-"What's the weather in Paris?"
-"Tell me the humidity in New York."
-"When is sunset in Mumbai?"
-"What’s the forecast for the next few days in Madrid?"
-"What's the wind speed in Chicago?"
+Type in your weather related query and click on the arrow or press enter. <br>
+You can ask things like: <br>
+"What's the weather in Paris?" <br>
+"Tell me the humidity in New York." <br>
+"When is sunset in Mumbai?" <br>
+"What’s the forecast for the next few days in Madrid?" <br>
+"What's the wind speed in Chicago?" <br>
 
 ## 📦 Features
 
